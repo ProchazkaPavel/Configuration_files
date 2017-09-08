@@ -4,9 +4,9 @@ set modeline
 
 "set tabstop=8
 "set sw=2
-"set expandtab
-"set shiftwidth=4
-"set softtabstop=4
+set expandtab
+set shiftwidth=4
+set softtabstop=4
 set smartindent
 
 
@@ -19,6 +19,8 @@ set encoding=utf-8
 map } :w<CR>:next<CR>
 map { :w<CR>:prev<CR>
 set textwidth=100
+set listchars=tab:!·,trail:·
+set list
 
 
 
